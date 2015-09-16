@@ -1,3 +1,10 @@
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
+
+
+
 $(document).ready(function(){
 
     var sel=0;
