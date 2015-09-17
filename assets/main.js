@@ -1,8 +1,18 @@
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();   
-});
 
 $(document).ready(function(){
+	
+    $(".tip-top").tooltip({
+        placement : 'top'
+    });
+    $(".tip-right").tooltip({
+        placement : 'right'
+    });
+    $(".tip-bottom").tooltip({
+        placement : 'bottom'
+    });
+    $(".tip-left").tooltip({
+        placement : 'left'
+    });
 
     var sel=0;
 	//Window Size setting
