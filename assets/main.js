@@ -1,9 +1,17 @@
 $(document).ready(function(){
-    $("#glyphicons").tooltip({
-        title : 'It works in absence of title attribute.'
+    $(".tip-top").tooltip({
+        placement : 'top'
+    });
+    $(".tip-right").tooltip({
+        placement : 'right'
+    });
+    $(".tip-bottom").tooltip({
+        placement : 'bottom'
+    });
+    $(".tip-left").tooltip({
+        placement : 'left'
     });
 });
-
 
 $(document).ready(function(){
 
