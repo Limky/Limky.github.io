@@ -1,10 +1,9 @@
-$(function () {
-  $('[data-toggle="tooltip"]').tooltip()
-})
 $(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip();   
+  
+    $(".tip-right").tooltip({
+        placement : 'right'
+ 
 });
-
 
 
 $(document).ready(function(){
