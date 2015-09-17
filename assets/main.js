@@ -1,15 +1,6 @@
 $(document).ready(function(){
-    $(".tip-top").tooltip({
-        placement : 'top'
-    });
-    $(".input item").tooltip({
-        placement : 'right'
-    });
-    $(".tip-bottom").tooltip({
-        placement : 'bottom'
-    });
-    $(".tip-left").tooltip({
-        placement : 'left'
+    $("#glyphicons").tooltip({
+        title : 'It works in absence of title attribute.'
     });
 });
 
