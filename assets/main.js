@@ -2,7 +2,7 @@ $(document).ready(function(){
     $(".tip-top").tooltip({
         placement : 'top'
     });
-    $(".tip-right").tooltip({
+    $(".input item").tooltip({
         placement : 'right'
     });
     $(".tip-bottom").tooltip({
