@@ -1,5 +1,8 @@
-$(function () { $("[data-toggle='tooltip']").tooltip(); });
-
+$(function() {
+    $( document ).tooltip();
+  });
+  
+  
 $(document).ready(function(){
 	
 
