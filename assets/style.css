@@ -80,7 +80,7 @@ body{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-si
 	height: 27px;
 	vertical-align: center;
 }
-
+/*
 .input:hover{
 	border-radius: 5px;
 	background: #337ab7;
@@ -88,7 +88,7 @@ body{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-si
 	-moz-transition: background .5s;
 	-o-transition: background .5s;
 	transition: background .5s;
-}
+}*/
 
 .output:hover{
 	border-radius: 5px;
@@ -125,8 +125,8 @@ body{font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;font-si
 	vertical-align:center;
 	padding: 5px;
 	margin: 5px;
-/*	box-shadow: 3px 3px 10px #000000;
-*/
+	box-shadow: 3px 3px 10px #000000;
+
 	
 }
 .outputItem{
