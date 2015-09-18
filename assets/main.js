@@ -1,23 +1,11 @@
 
- $(function() {
-    $( document ).tooltip({
-      position: {
-        my: "center bottom-20",
-        at: "center top",
-        using: function( position, feedback ) {
-          $( this ).css( position );
-          $( "<div>" )
-            .addClass( "arrow" )
-            .addClass( feedback.vertical )
-            .addClass( feedback.horizontal )
-            .appendTo( this );
-        }
-      }
-    });
-  });
-
 
 $(document).ready(function(){
+
+	 $('[data-toggle="tooltip"]').tooltip({
+        placement : 'top'
+    });
+
 
     var sel=0;
 	//Window Size setting
