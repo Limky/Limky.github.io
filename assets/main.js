@@ -1,39 +1,3 @@
- $(function() {
-    $( document ).tooltip({
-      position: {
-        my: "center bottom-20",
-        at: "center top",
-        using: function( position, feedback ) {
-          $( this ).css( position );
-          $( "<div>" )
-            .addClass( "arrow" )
-            .addClass( feedback.vertical )
-            .addClass( feedback.horizontal )
-            .appendTo( this );
-        }
-      }
-    });
-  });
-  
-  $(function() {
-    $( document ).tooltip();
-  });
-
-
-  $(function() {
-    $( "#show-option" ).tooltip({
-      show: {
-        effect: "slideDown",
-        delay: 250
-      }
-    });
-    
-      open: function( event, ui ) {
-        ui.tooltip.animate({ right: ui.tooltip.position().right + 10 }, "fast" );
-      }
-    });
-  });
-  
 $(document).ready(function(){
 	
 
