@@ -1,22 +1,23 @@
 
-
+ $(function() {
+    $( document ).tooltip({
+      position: {
+        my: "center bottom-20",
+        at: "center top",
+        using: function( position, feedback ) {
+          $( this ).css( position );
+          $( "<div>" )
+            .addClass( "arrow" )
+            .addClass( feedback.vertical )
+            .addClass( feedback.horizontal )
+            .appendTo( this );
+        }
+      }
+    });
+  });
 
 
 $(document).ready(function(){
-
-    $(".tip-top").tooltip({
-        placement : 'top'
-    });
-    $(".tip-right").tooltip({
-        placement : 'right'
-    });
-    $(".tip-bottom").tooltip({
-        placement : 'bottom'
-    });
-    $(".tip-left").tooltip({
-        placement : 'left'
-    });
-
 
     var sel=0;
 	//Window Size setting
