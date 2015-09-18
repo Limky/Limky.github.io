@@ -1,8 +1,10 @@
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
+
 
 $(document).ready(function(){
 	
-
-    $('[data-toggle="tooltip"]').tooltip();   
 
     var sel=0;
 	//Window Size setting
