@@ -14,6 +14,10 @@
       }
     });
   });
+  
+  $(function() {
+    $( document ).tooltip();
+  });
 
 
   $(function() {
@@ -23,20 +27,9 @@
         delay: 250
       }
     });
-    $( "#hide-option" ).tooltip({
-      hide: {
-        effect: "explode",
-        delay: 250
-      }
-    });
-    $( "#open-event" ).tooltip({
-      show: null,
-      position: {
-        my: "left top",
-        at: "left bottom"
-      },
+    
       open: function( event, ui ) {
-        ui.tooltip.animate({ top: ui.tooltip.position().top + 10 }, "fast" );
+        ui.tooltip.animate({ right: ui.tooltip.position().right + 10 }, "fast" );
       }
     });
   });
